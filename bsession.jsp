@@ -10,6 +10,9 @@
 	<%
 		String s1 = (String)session.getAttribute("a1");
 		out.println("session value is = "+s1);
+		session.removeAttribute("a1");
+		String s2 = (String)session.getAttribute("a1");
+		out.println("session value is = "+s2);
 	%>
 </body>
 </html>

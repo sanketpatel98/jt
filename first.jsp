@@ -27,6 +27,6 @@
 		}
 	%>
 	</table>
-	end
+	<button><a href="one.jsp" style="text-decoration: none">insert data</a></button>
 </body>
 </html>
